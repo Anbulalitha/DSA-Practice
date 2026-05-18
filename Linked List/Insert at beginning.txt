@@ -1,0 +1,4 @@
+Node head = new Node(10);
+Node newNode = new Node(5);
+newNode.next = head;
+head = newNode;
