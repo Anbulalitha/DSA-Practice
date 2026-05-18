@@ -1,0 +1,4 @@
+string str = "hello";
+char[] chars = str.ToCharArray();
+Array.Reverse(chars);
+Console.WriteLine(new string(chars));
